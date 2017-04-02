@@ -19,6 +19,12 @@ a:visited.link{
 p1 {
     text-indent: 50px;
 }
+nav {
+	border: large;
+	margin: 0px;
+	padding: inherit;
+	background-color: gray;
+}
 
 body{
 	background-color: #ffffff; 
@@ -26,11 +32,14 @@ body{
 	font-family: Arial, Helvetica, sans-serif;	
 	text-align:left;
 }
+
 header {
 	border: medium;
 	margin: auto;
+	text-align:center;
+	font-size: 70px;
 	padding: inherit;
-	background-color: aqua;
+	background-color: white;
 }
 footer {
 	border: medium;
