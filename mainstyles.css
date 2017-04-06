@@ -3,13 +3,15 @@
 
 a  {
 	text-decoration: none;
-	color:rosybrown;
+	color:dimgray;
+	text-align: left;
+	
 }
 
 a:hover.link{
-	color:rosybrown;
-	background-color:#FF6; 
-	font-size:x-large; 
+	color:black;
+
+	font-size:35px; 
 }
 
 a:visited.link{
@@ -23,50 +25,100 @@ nav {
 	border: large;
 	margin: 0px;
 	padding: inherit;
-	background-color: gray;
+	background-color: beige;
+	font-size: 30px;
 }
 
 body{
 	background-color: #ffffff; 
 	color: #000000; 
 	font-family: Arial, Helvetica, sans-serif;	
-	text-align:left;
-	
 	
 	margin:0;
     padding:0;
     background: #000 url(home_back.jpg) center center fixed no-repeat;
     -moz-background-size: cover;
     background-size: cover;
+	
+	
+
 }
 
 header {
-	border: medium;
+	border: large;
 	margin: auto;
 	text-align:center;
 	font-size: 70px;
 	padding: inherit;
 	background-color: white;
+	
+	
+	
+}
+h1{
+	margin-left: 10px;
+	
 }
 footer {
 	border: medium;
-	margin: auto;
+	margin: 0;
 	padding: inherit;
 	background-color: aqua;
+	text-align: left;
 }
 #main {
 	margin-left: inherit;
 
 }
 
+#slam {
+	font-size: 70px;
+	margin-left: 100px;
+	
+
+}
+
+#content{
+	margin-left: 15px;
+	font-size: 25px;
+}
+#pic_head{
+
+    max-width: 10%;
+	max-height: 10%;
+
+}
+
+
 #pic{
- 	display: block;
+	
+	display: block;
     max-width: 100%;
     height: auto;
+
+}
+#pic_in{
+	
+	
 }
 
+#inline > div {
+    display: inline-block;
+    width: 600px;
+    height: auto;
 
-.hightlight {
-	color: green;
+    border: 1px ;
+    font-size: 25px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 35px;
+	margin-left: 70px
 }
 
+#table{
+	font-size: 20px;
+	text-align: center;
+}
+#sign{
+	margin-left: 20px;
+}
