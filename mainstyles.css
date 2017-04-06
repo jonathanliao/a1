@@ -26,7 +26,7 @@ nav {
 	margin: 0px;
 	padding: inherit;
 	background-color: beige;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 body{
@@ -48,7 +48,7 @@ header {
 	border: large;
 	margin: auto;
 	text-align:center;
-	font-size: 70px;
+	font-size: 60px;
 	padding: inherit;
 	background-color: white;
 	
@@ -84,8 +84,8 @@ footer {
 }
 #pic_head{
 
-    max-width: 10%;
-	max-height: 10%;
+    max-width: 5%;
+	max-height: 5%;
 
 }
 
@@ -104,11 +104,11 @@ footer {
 
 #inline > div {
     display: inline-block;
-    width: 600px;
+    width: 400px;
     height: auto;
 
     border: 1px ;
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
     vertical-align: middle;
     line-height: 35px;
